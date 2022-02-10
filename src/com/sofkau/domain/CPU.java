@@ -118,7 +118,10 @@ public class CPU {
         }
     }
 
-
-    //NOP → no hace nada.
+    public void printMatriz() {
+        for (int i = 0; i < records.length ; i++) {
+            System.out.println(records[i]);
+        }
+    }
 
 }
